@@ -1,34 +1,24 @@
 <?php 
-// Create DOM from URL or file
 include('Simplehtmldom/simple_html_dom.php');
 
-/*print_r($_POST);
-*/
-/*[bd] => 200000
-    [mu] => 500
-    [upr] => 500
-    [pr] => 0,0,0,0,0,0,0,0,0*/
+
 
     $bd=$_POST['bd'];
     $mu=$_POST['mu'];
     $upr=$_POST['upr'];
     $pr=$_POST['pr'];
 
-/*$bd=$_POST['bd'];
-    $mu=$_POST['mu'];
-    $upr=$_POST['upr'];
-    $pr=$_POST['pr'];*/
+/* Why reinvent the wheel? 
+We found carwale is doing a great job, 
+so we scrapped their site to show the suggestions, a small jugaad.
+Was it a Cake walk?
+Maybe after learning their code and realizing they use another url to get the result.
+Or may be because we are good experiance at scrapping? */
+
     $url="http://www.carwale.com/newcars/recommendcars/result.aspx?bd=".$bd."&mu=".$mu."&upr=".$upr."&pr=".$pr;
 $html = file_get_html($url);
 
-// Find all images 
-// foreach($html->find('img') as $element) 
-//        echo $element->src . '<br>';
 
-// Find all links 
-
-
-//echo $html;
 
 
 foreach($html->find('li') as $element) {
