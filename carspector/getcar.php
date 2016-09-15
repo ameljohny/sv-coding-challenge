@@ -14,7 +14,7 @@ include('Simplehtmldom/simple_html_dom.php');
 *so we scrapped their site to show the suggestions, a small jugaad.
 *Was it a Cake walk?
 *Maybe after learning their code and realizing they use another url to get the result.
-*Or may be because we are good  at scrapping? 
+*Or may be because we have a  good experiance in scrapping? 
 */
 
     $url="http://www.carwale.com/newcars/recommendcars/result.aspx?bd=".$bd."&mu=".$mu."&upr=".$upr."&pr=".$pr;
