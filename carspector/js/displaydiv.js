@@ -33,7 +33,7 @@ values: [
     }); 
 
 */
- 	var budgetArray = new Array();
+ /*	var budgetArray = new Array();
 	budgetArray['2 lakh'] = "200000";
 	budgetArray['5 lakh'] = "500000";
 	budgetArray['10 lakh'] = "1000000";
@@ -61,23 +61,13 @@ values: [
     typeArray['Daily use'] = "1";
     typeArray['weekend trips'] = "2";
     typeArray['performance'] = "3";
-    typeArray['utility'] = "4";
+    typeArray['utility'] = "4";*/
 
 
 
 
 
-   var budget = document.getElementById("range_budget").value;
-   console.log(budget);
-
-   console.log(budgetArray[budget]);
-
-  
-  var km = document.getElementById("range_km").value;
-   console.log(km);
-
-   var type = document.getElementById("range_type").value;
-   console.log(type);
+   
 
    
    showDivs('results');

@@ -10,7 +10,7 @@ body
 	{
  		background: white;
  		color: #fd625e;
-		font-family: 'absender',absender,CodeNewRomanBold;
+		font-family: 'Goudy',Goudy,lemon,LemonMilk;
 		font-weight: 300;
 		overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
 	}
@@ -24,7 +24,10 @@ body
 					font-family:absender;
 					src: url("../fonts/absender1.ttf") ;
 			}
-
+@font-face {
+				    font-family: instructionsBold;
+				    src: url(../fonts/Instruction Bold.otf);
+			}
 @font-face {
 				    font-family: lemon;
 				    src: url(../fonts/LemonMilk.otf) ;
@@ -48,7 +51,8 @@ body
 .lemon{
 	font-family: lemon ;
 }
-
+.instructionsBold{
+	font-family: instructionsBold;
 }
 .CodeNewRomanBold{
 	font-family: CodeNewRomanBold;
@@ -469,6 +473,9 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 		padding-bottom: 80px;
 		margin-bottom: 80px;
 	}
+.cardheight{
+	height: 600px;
+}
 #results .col-md-3
 	{
 		padding: 0px;
@@ -482,6 +489,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 		overflow: hidden;
 		padding: 0;
 		margin: 0 auto;
+		height: 400px;
 	}
 #results .results-thumb .results-overlay
 	{
@@ -601,9 +609,11 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 .rupee{
 	height: 20px;
+	float: left;
 }
 .rate p{
 	color: black;
+	float: right;
 }
 /* end contact */
 
