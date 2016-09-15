@@ -32,6 +32,10 @@ body
 				    font-family: lemon;
 				    src: url(../fonts/LemonMilk.otf) ;
 			}
+@font-face {
+				    font-family: rupee;
+				    src: url(../fonts/Rupee_Foradian.ttf) ;
+			}			
 /* Font Families Included */	
 
 /* Colors Included */
@@ -189,7 +193,7 @@ h2 span
 /* start nagivation */
 .logo
 {
-	height: 70px;
+	height: 55px;
 	float: left;
 	padding:10px; 
 }
@@ -512,7 +516,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 	{
 		font-weight: bold;
 		padding-bottom: 10px;
-		color:#3CDDC9;
+		color:black;
 	}
 #results .results-thumb .results-overlay .btn
 	{
@@ -607,13 +611,13 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 	border: 2px #5ea9ea !important;
 	border-radius: 10px;
 }
-.rupee{
-	height: 20px;
-	float: left;
-}
-.rate p{
-	color: black;
-	float: right;
+
+
+.rate {
+	font-family: rupee;
+	color:#fd6b46; 
+	
+	
 }
 /* end contact */
 

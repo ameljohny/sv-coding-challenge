@@ -103,7 +103,7 @@ $.ajax({
     },
     error: function (jqXHR, textStatus, errorThrown)
     {
- alert('error');
+  console.log(data);
     }
 });
 
