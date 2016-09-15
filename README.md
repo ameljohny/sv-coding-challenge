@@ -10,10 +10,10 @@ Thanks for giving us an opportuinity to participate in the sv.co batch 3 program
 </ul>
 
 <h4>How To Play </h3>
-The games aim is to help the Penguin ski through without getting hit by obstacles.
+The game's aim is to help the Penguin ski  without getting hit by obstacles.
 You are provided with four arrow keys whose right combination is to be used.
-A floating instruction key comes along as the penguin ski..
-When the arrow reaches the floating circle, use the right combination of keys to help the penguin avoid obstacles.
+A floating instruction key comes along as the penguin ski.
+When the instruction key reaches the floating circle, use the right combination of keys to help the penguin avoid obstacles.
 
 <h3>1)CARspector </h3>
  <ul>
