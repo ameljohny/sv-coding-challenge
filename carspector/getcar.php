@@ -1,7 +1,7 @@
 <?php 
 include('Simplehtmldom/simple_html_dom.php');
 
-
+error_reporting(0);
 
     $bd=$_POST['bd'];
     $mu=$_POST['mu'];
@@ -41,7 +41,7 @@ foreach($html->find('li') as $element) {
                            <img src=\"".$img."\" class=\"img-responsive\" alt=\"results img 1\">
                                 <div class=\"results-overlay CodeNewRomanBold\">
                                     <h4>".$a."</h4>
-                                     <div class=\"rate-holder\"><p class=\"rate\">₹".$price."</p></div>
+                                     <div class=\"rate-holder\"><p class=\"rate\">`".$price."</p></div>
                                     <p>".$spec."</p>
                                     
                                 </div>

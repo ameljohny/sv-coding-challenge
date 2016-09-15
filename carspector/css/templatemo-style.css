@@ -677,27 +677,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 	}
 }
 
-/* start 980 media quires */
-@media only screen and ( max-width: 980px ) {
-	
-	#results .results-thumb .results-overlay
-	{
-		background: #28a7e9;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		width: 100%;
-		height: 100%;
-		opacity: 0;
-		position: absolute;
-		padding: 40px 10px 20px 20px;
-		-webkit-transition: all 0.4s ease-in-out;
-		        transition: all 0.4s ease-in-out;
-	}
 
-}
-/* end 360 media quires */
 
 /* start 768 media quires */
 @media only screen and ( max-width: 767px ) {

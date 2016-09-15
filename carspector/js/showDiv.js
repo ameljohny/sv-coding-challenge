@@ -97,13 +97,21 @@ $.ajax({
         //data - response from server
        //console.log(data);
 
-        $('#result-holder').html(data);
+        
 
-        console.log(data);
+        console.log('length'+data.length);
+
+        if (data.length>5) {
+$('#result-holder').html(data);
+
+        }else{
+            msg='Sorry, no cars found as per your specification.Please try again with another set of specifications';
+            $('#result-holder').html(msg);
+        }
     },
     error: function (jqXHR, textStatus, errorThrown)
     {
-  console.log(data);
+  //console.log(data);
     }
 });
 
